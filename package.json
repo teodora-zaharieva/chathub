@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:client": "nodemon --exec babel-node src/client.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/teodora-zaharieva/chathub/issues"
   },
-  "homepage": "https://github.com/teodora-zaharieva/chathub#readme"
+  "homepage": "https://github.com/teodora-zaharieva/chathub#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  }
 }
